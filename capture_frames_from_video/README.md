@@ -4,8 +4,8 @@ Script creates a folder and .
 
 ### parameters ###
 
--f / --file = video file path
--s / -seconds = program will save frames every # seconds, # is second parameter
+-f / --file = video file path \n
+-s / -seconds = program will save frames every # seconds, # is second parameter \n
 --shrink = Enter a value to shrink frame, default value is 1. If shrink is 2, frame's sizes will multiplied by 1/2.
 
 ### Usage ###
