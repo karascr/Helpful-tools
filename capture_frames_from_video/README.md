@@ -1,3 +1,4 @@
+# Capture Frames From A Video #
 This script gets a video file and saves frames from it.
 Script creates a folder and .
 
