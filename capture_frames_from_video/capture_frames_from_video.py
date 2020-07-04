@@ -47,12 +47,10 @@ while frame_counter <= total_frame:
     ret, frame = cap.read()
 
     if int(args["shrink"]) > 1:
-        # shrink frame if height > 600px
         height, width, layers = frame.shape
-        if height > 600:
-            height = int(height / int(args["shrink"]))
-            width = int(width / int(args["shrink"]))
-            frame = cv.resize(frame, (width, height))
+        height = int(height / int(args["shrink"]))
+        width = int(width / int(args["shrink"]))
+        frame = cv.resize(frame, (width, height))
 
     # save frame
     # file path
