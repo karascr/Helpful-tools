@@ -1,5 +1,5 @@
-This code gets a video file and saves frames from it.
-Frames will be saved in to a file named as video file's name.
+This script gets a video file and saves frames from it.
+Script creates a folder and .
 
 ### parameters ###
 
