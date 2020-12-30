@@ -8,4 +8,4 @@ to download video:
 	python youtube_video_downloader.py --url video_url --res 1080p
 
 to download audio
-	python youtube_video_downloader.py --url video_url
+	python youtube_audio_downloader.py --url video_url
